@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+      <div id="background-filter">
+          <div class="contenido">
+              <header>
+                <div class="logo">
+                    <img src="./media/—Pngtree—house location icon_4985554.png" alt="">
+                </div>
+                <h1>#YoMeQuedoEnCasa</h1>
+            </header>
+            <nav class="nav-bar">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="actividades.html">Actividad física</a></li>
+                  <li><a href="recetasCocina.html">Recetas de cocina</a></li>
+              </ul>
+          </nav>
+              <div class="formulario">
+                <form action="formulario" > 
+                    <ul>
+                        <li>
+                          <label for="name" >Nombre y apellido:</label>
+                          <input type="text" id="name" name="nombre" />
+                        </li>
+                        <li>
+                          <label for="altura">Altura:</label>
+                          <input type="text" id="name" name="altura" />
+                        </li>
+                        <li>
+                          <label for="peso">Peso:</label>
+                          <input type="text" id="peso" name="peso" />
+                        </li>
+                        <li>
+                          <label for="mail">Correo electrónico:</label>
+                          <input type="email" id="mail" name="email" />
+                        </li>
+                        <li>
+                          <label for="msg">Mensaje adicional:</label>
+                          <textarea id="msg" name="mensajeAdicional"></textarea>
+                        </li>
+                    </ul>
+                  </form>
+                <div class="captchaPagina">
+                        <p>Ingrese el siguiente código</p>
+                        <input id="captcha" type="number" value="" disabled>
+                        <input id="captchaUsuario" name="captcha" class="input-medio" type="number" value="" placeholder="Ingrese el código">
+                        <p id="formularioenviado" class="mostrar"></p>
+                        <p class="mostrar"></p>
+                </div>
+                <input id="enviar" class="enviarForm" type="submit"  name="enviar" value="Enviar">
+              </div>
+              <div class="piePagina">
+                <img src="./media/—Pngtree—vector house icon_4046257.png" alt="">
+                <h3>#QuedateEnCasa</h3>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/captcha.js"></script>
+</body>
+</html>

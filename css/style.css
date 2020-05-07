@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./imagenes/images.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background-filter{
+    background-color: rgba(25, 88, 35, 0.384);
+}
+.contenido{
+    margin: 0 50px;
+    font-size: 20px;
+    color: #ffcea2;
+}
+.contenido h2{
+    font-size:40px;
+    text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+    color: #ffcea2;
+}
+.contenido p{
+    line-height: 36px;
+    padding: 12px 0;
+    padding-right: 30%;
+}
+img{
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.589);
+}
+
+/*Encavezado y navegación*/
+header{
+    background-color: rgba(236, 224, 170, 0.692);
+    box-shadow: 0px 6px 6px rgba(0,0,0, 0.25);
+    height: 150px;
+}
+header .logo{
+    margin-left: 30px;
+
+}
+header .logo img{
+    width: 13%;
+    float: left;
+    box-shadow: none;
+}
+header h1{
+    padding: 30px;
+    color: black;
+    text-shadow: 0px 8px 8px rgba(0,0,0, 0.25) ;
+    float: right;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} 
+.nav-bar li{
+    list-style: none;
+    padding: 10px 20px; 
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #ffcea2;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.nav-bar ul li a:hover{
+    border-bottom: 1px solid #ffcea2;
+    color: #ffcea2;
+}
+/*Pie de pagina*/
+.piePagina{
+    width: 100%;
+    background-color:rgba(236, 224, 170, 0.692);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina img{
+    width: 5%;
+    box-shadow: none;
+
+}
+.piePagina h3{
+    padding: 0px 10px;
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+
+}
+
+/*Contenido index*/
+.cuerpo{
+    margin-top: 30px ;
+    padding: 1em;
+    
+}
+.seccionUno img{
+    margin: 20px;
+}
+
+.seccionDos{
+    margin-top: 20px;
+    border-top: 2px solid #ffcea2;
+}
+.seccionDos h2{
+    margin: 20px 0;
+}
+
+.seccionDos .recHome, .seccionDos .ejerHome{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px;
+    border-bottom: 2px solid #ffcea2;
+}
+.imgLink{
+    width: 350px;
+}
+.recHome p{
+    margin-left: 20px;
+}
+.ejerHome p, .recHome p{
+    width: 48%;
+    padding: 0px 25px;
+}
+
+/*RECETAS*/
+.recetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ffcea2;
+    margin: 20px;
+}
+.recetas h3, .recetas h4{
+    width: 100%;
+    text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+    padding: 20px 0px;
+}
+
+.recetas img{
+    width: 30%;
+}
+.listaReceta{
+    padding: 0px 25px;
+}
+.liEncavezado{
+    font-weight: bold;
+}
+
+
+/*Actividades(tabla)*/
+.cuerpo table{
+    width: 75%;
+    /*margin: auto ;*/
+    border-collapse: collapse;
+    border: 2px solid #1d1d1d;
+}
+.cuerpo table thead tr th{
+    padding: 15px;
+}
+.cuerpo table tbody tr td{
+    padding: 30px;
+}
+tr,th,td{
+    border: #1d1d1d 2px solid;
+}
+ 
+.contacto button{
+    background-color: transparent;
+    border: 3px solid #ffcea2;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contacto button a{
+    color: #425c5a;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ffcea2;
+}
+
+
+/*FORMULARIO*/
+.formulario{
+    width: 75%;
+    padding: 1em;
+    border: 1px solid #ffcea2;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+ul{
+    list-style: none;
+}
+form li + li {
+    margin-top: 1em;
+}
+input, 
+textarea {
+    display: block;  
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    width: 30%;
+    
+}
+input:focus, 
+textarea:focus {
+    border: 2px solid #ffcea2;
+    background-color: rgba(236, 224, 170, 0.445);
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+input, textarea{
+    margin: 10px 0px;
+    padding: 3px;
+    color: #ffffff;
+    border: 1px solid #ffcea2;
+    border-radius: 5px;
+    background-color: #425c5a;
+}
+.captchaPagina{
+    height: 30%;
+}
+.enviarForm{
+    margin: 40px 0px 0px 60%;
+    padding: 5px;
+    font-size: 30px;
+}
+.enviarForm:hover{
+    color: #425c5a;
+    background-color: rgba(236, 224, 170, 0.692);
+}
+
+/*Validacion*/   
+p#formularioenviado{
+    display: none;
+    position: absolute;
+}
+.mostrar, #formularioenviado.mostrar{
+    display:block;
+}
+
